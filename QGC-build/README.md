@@ -16,5 +16,6 @@ https://community.chocolatey.org/packages/android-ndk/21.3
     choco install android-ndk --version=21.3
 - is used inside the powershell administrator, all codes are used there
 
-![Uploading image.png…]()
+![image](https://github.com/UbaydullohML/QGC-compile/assets/75980506/67072c5d-2ae7-49b0-8ef9-9f3fb41e4c80)
+
   
