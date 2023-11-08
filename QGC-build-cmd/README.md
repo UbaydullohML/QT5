@@ -25,6 +25,7 @@ Output:
 ## change the android-SIYIqgc deployment settings.json file,
 and if the error comes and ask the libsiyiqgcarm64v8a.so, bring it to below place 
 ![image](https://github.com/UbaydullohML/QGC-compile/assets/75980506/edd39304-841e-4be7-9460-a5d8d1192eff)
+![image](https://github.com/UbaydullohML/QGC-compile/assets/75980506/856c9f17-798f-49fd-966c-e161dca3bba4)
 ![image](https://github.com/UbaydullohML/QGC-compile/assets/75980506/7b00ef25-932c-4149-bc61-1361872b22d3)
 
 run below code:
