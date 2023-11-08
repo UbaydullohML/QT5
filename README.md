@@ -22,6 +22,10 @@ d
 
     C:\Users\ubayd\AppData\Local\Android\qgroundcontrol\build>"C:\Users\ubayd\AppData\Local\Android\Sdk\ndk\21.3.6528147\prebuilt\windows-x86_64\bin\make.exe" -j8
 
-    
+
+d folder
+
+    D:\models\QTDev\qgroundcontrol\build>"D:\Programs\Android\Sdk\ndk\21.3.6528147\prebuilt\windows-x86_64\bin\make.exe" -j8
+
 
         
