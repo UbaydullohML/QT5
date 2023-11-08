@@ -15,11 +15,13 @@ in qgc folder and entered to build
     qmake.exe ../qgroundcontrol.pro -spec android-clang "CONFIG+=debug" "CONFIG+=qml_debug" ANDROID_ABIS="arm64-v8a"
 
 
--  f
--  
+f
 
+    C:\Users\ubayd\AppData\Local\Android\qgroundcontrol\build>"C:\Users\ubayd\AppData\Local\Android\Sdk\ndk\21.3.6528147\prebuilt\windows-x86_64\bin\make.exe" qmake_all
+d
 
-        C:\Users\ubayd\AppData\Local\Android\qgroundcontrol\build>"C:\Users\ubayd\AppData\Local\Android\Sdk\ndk\21.3.6528147\prebuilt\windows-x86_64\bin\make.exe" qmake_all
+    C:\Users\ubayd\AppData\Local\Android\qgroundcontrol\build>"C:\Users\ubayd\AppData\Local\Android\Sdk\ndk\21.3.6528147\prebuilt\windows-x86_64\bin\make.exe" -j8
 
+    
 
-        C:\Users\ubayd\AppData\Local\Android\qgroundcontrol\build>"C:\Users\ubayd\AppData\Local\Android\Sdk\ndk\21.3.6528147\prebuilt\windows-x86_64\bin\make.exe" -j8
+        
