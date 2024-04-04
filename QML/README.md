@@ -1,10 +1,8 @@
 ## Contents:
 * [1-Intro](#1-intro)
 * [2-QtCreator](#2-qtcreator)
-* [3-Diving2QML](3-diving2qml)
-
-
-
+* [3-Diving2QML](#3-diving2qml)
+* [4-BasicTypes](#4-basictypes)
 
 
 ## 1-Intro
@@ -78,5 +76,97 @@ with c++, qml file is almost same, just first two lines includes versions:
 
 Typically, QT application with py or c++ files contains backend logic and communciates with QML file .qml for user interface. .pro file configures project settings, and defines how qml ui components and c++ backend are integrated and built together.
 
+- Kit - defines how application gets compiled. 
+
+
 
 ## 3-Diving2QML
+
+comments is //
+
+- root objects, id must be unqiue, root object can be only one. Qt uses parent child hierarchy to manage memory
+
+- QML objects vs QObjects:
+
+QML (Qt Modeling Language) objects - are used for defining the user interface in Qt Quick applications. They represent visual elements such as buttons, text fields, images, and layouts. QML objects are typically defined in .qml files and describe the appearance and behavior of UI components.
+
+    Rectangle {
+    width: 100
+    height: 100
+    color: "red"
+    // Other properties and behaviors
+    }
+
+QObjects - are a fundamental building block in Qt applications, providing the foundation for QObject-based classes that add functionality to your application. They are used for implementing application logic, managing resources, handling events, and interacting with other parts of the Qt framework.
+
+QObjects are typically implemented in C++ and inherit from the QObject class. They form a hierarchical tree structure, allowing for efficient memory management and event handling through the Qt signal-slot mechanism.
+
+QObjects are not directly used in QML files but are often used behind the scenes to provide functionality to QML objects. For example, a QObject-based class might be used to handle data processing or business logic, which is then accessed from QML for presentation in the user interface.
+
+    class MyObject : public QObject {
+    Q_OBJECT
+    public:
+        explicit MyObject(QObject *parent = nullptr);
+        // Other methods and properties
+    };
+
+In summary, QML objects are primarily used for defining the user interface in Qt Quick applications, while QObjects are used for implementing application logic and functionality in C++ code. They complement each other in Qt applications, with QObjects often providing the backend support for QML objects to create fully featured applications.
+
+
+https://bcairns.medium.com/understanding-qobject-in-qt-97de374ca0cd
+
+
+- xyz positioning - x and y positing, and z is for emphasizing the overlay on one level
+
+- parent and child transformations
+  
+      Image {  // child
+          id: myimage2
+          source: 'https://upload.wikimedia.org/wikipedia/commons/0/0b/Qt_logo_2016.svg'
+          width:  150
+          height: 100
+          x: 50
+          y: 50
+          z: 5
+          // 23.Parent and children relationship
+          Rectangle{
+              x: -25
+              y: -25
+              z: 0
+              width: 50
+              height: 50
+              color: 'green'
+              opacity: 0.6
+          }
+  
+          Rectangle{
+              x: parent.width - height
+              y: parent.height - height
+              z:0
+              width: 50
+              height: 50
+              color: 'blue'
+              opacity: 0.6
+          }
+      }
+
+
+- object interaction - TapHandler - it is function which it give access to interact with the object, the below sample is TapHandler, when once tapped it changes the color as up and down color:
+
+      // 24. object interaction - TapHandler
+      Rectangle{
+          anchors.bottom: parent.bottom
+          anchors.bottomMargin: 10
+          width: 100
+          height: 100
+  
+          color: inputhandler.pressed ? "yellow" : "green"
+  
+          // tap screen
+          TapHandler{
+              id: inputhandler
+          }
+      }
+
+
+## 4-BasicTypes
