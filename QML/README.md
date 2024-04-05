@@ -170,3 +170,17 @@ https://bcairns.medium.com/understanding-qobject-in-qt-97de374ca0cd
 
 
 ## 4-BasicTypes
+
+- item type - all visual item in Qt Quick inherit from item. it defines attributes that are common across visual items, x,y position. widht height , anchoring, The Item QML type inherits from QtObject and can be used to create visual types such as:
+AnimatedSprite, BorderImage, Canvas, Column, ColumnLayout, DropArea, Flickable, Flipable, Flow, and FocusScope. But (Item QML type), which is invisible, cause we cannot set visual appearance, which has no visual appearance:
+
+https://doc.qt.io/qt-6/qml-qtquick-item.html
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/ef2983a8-082c-4748-8664-cf0b5868ea7d)
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/c078bdae-f615-4bfb-ab76-486b023e667f)
+
+it exists solely so that you can make your own components and you can say, i wanna define my own custom object. 
+
+
+
