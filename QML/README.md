@@ -3,6 +3,8 @@
 * [2-QtCreator](#2-qtcreator)
 * [3-Diving2QML](#3-diving2qml)
 * [4-BasicTypes](#4-basictypes)
+* [5-positioning-layouts](#5-positioning-layouts)
+* [6-properties-animations](#6-properties-animations)
 
 
 ## 1-Intro
@@ -183,4 +185,30 @@ https://doc.qt.io/qt-6/qml-qtquick-item.html
 it exists solely so that you can make your own components and you can say, i wanna define my own custom object. 
 
 
+- rectangle
 
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/1d8f4a12-0fb5-40de-8a0a-01d46c2b0ae8)
+
+in order to create circle we first create rectangle and specify the radius to make it circle, only method is this, 
+
+and we could set the gradient code to combine colors at the position
+
+- image
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/46e70347-64fd-4104-bd26-2fe3408ced3b)
+
+image related codes, and auto image size scaler, and image download progress
+
+- text
+
+https://doc.qt.io/qt-6/qml-qtquick-text.html
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/fd00ac46-8a8b-4656-b275-8177e7c5ccfb)
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/ebd6439b-3beb-4a59-816f-942197c77640)
+
+this signals linkActivated() is getting emitted / send out, and qml in the background , connecting them to slot that starts with on and whatever signal name onLinkHovered()
+ 
+## 5-positioning-layouts
+
+## 6-properties-animations
