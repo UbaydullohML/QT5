@@ -208,7 +208,27 @@ https://doc.qt.io/qt-6/qml-qtquick-text.html
 ![image](https://github.com/UbaydullohML/QT5/assets/75980506/ebd6439b-3beb-4a59-816f-942197c77640)
 
 this signals linkActivated() is getting emitted / send out, and qml in the background , connecting them to slot that starts with on and whatever signal name onLinkHovered()
- 
+
+- mouse area
+
+https://doc.qt.io/qt-6/qml-qtquick-mousearea.html
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/53c67da4-acf3-4e9b-938d-29e2740962c3)
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/d4a09172-4f0f-41e4-9c7a-c7743bb70d0b)
+
+mouse area, enable left click and right click to trigger color change and ome function, double click feature, position change log on x and y, and enter rectange feature function and exit feature funciton.
+
+- custom component
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/917395e6-66d0-485c-bed0-85ce4bac4b10)
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/b07f13cb-cf73-45f1-8bcc-eb48d771bf48)
+
+creating new qml and connecting and combined usage of them, and creating 4 buttons on main.qml
+
 ## 5-positioning-layouts
+
+
 
 ## 6-properties-animations
