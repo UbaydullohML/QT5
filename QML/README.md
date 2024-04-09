@@ -254,6 +254,10 @@ adding qml file
 
 - column layout
 
+- layouts - easy object positioning
+
+to manage positions and sizes of widgets in GUI application.
+
 https://doc.qt.io/qt-6/qml-qtquick-column.html
 
 ![image](https://github.com/UbaydullohML/QT5/assets/75980506/0b708adc-edc3-444c-bf36-237239a75df4)
@@ -275,6 +279,8 @@ using myShape qml inside column{}, with spacing : 2 pixels and center in feature
 just by chaning column{} layout to row{} layout
 
 - grid layout
+
+(objects can be stacked on top of each other if there is no enough rows and columns )
 
 https://doc.qt.io/qt-6/qml-qtquick-grid.html
 
@@ -304,6 +310,13 @@ Positions its children side by side, wrapping as necessary.
 
 - anchors
 
+it binds object to a location or object reference
+
+it is used to stick different parts of program user interface together, telling program to put each part of ui so that they stay in right place
+
+https://doc.qt.io/qt-6/qtquick-positioning-anchors.html
+
+
 ![image](https://github.com/UbaydullohML/QT5/assets/75980506/def47f52-ea55-4243-80f2-33e838cb85f4)
 
 all sorts of anchor usages, and connected rectangles together and could be dragged all together, and the correct version of writing item in separate qml file
@@ -316,12 +329,17 @@ if anchor is not set, margin will not be there as well
 
 - simple image viewer
 
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/f8982cb7-5588-4efd-b96c-ad66ae9a03bf)
+
+image viewer, including positioning both with anchors and through columns, and through x y coordinates, custom component aliases, and hook events, and basic units of interaction. interactive UI.
 
 
 
 ## 6-properties-animations
 
 - property and property animation
+
+
 
 - rotation and rotation animation
 
