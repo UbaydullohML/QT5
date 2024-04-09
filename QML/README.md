@@ -334,19 +334,51 @@ if anchor is not set, margin will not be there as well
 image viewer, including positioning both with anchors and through columns, and through x y coordinates, custom component aliases, and hook events, and basic units of interaction. interactive UI.
 
 
+What happenes in background when a property binding is used??
+
+signals and slots are used 
+
 
 ## 6-properties-animations
 
 - property and property animation
 
+https://doc.qt.io/qt-6/qml-qtquick-propertyanimation.html
 
+Transformation in qml - its about transforming the objects apperance through changes, taking an object and transforming into sth else using its properties. 
+
+Whenever we see animation, it changes over time (PropertyAnimation - takes a property and changes it over time)
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/8cb477e3-8af1-41ac-b84a-0eb57b1a7e27)
+
+we have rectangle, and two propertyAnimation one moving object to right and one to the left, and including duraiton to move how fast
 
 - rotation and rotation animation
 
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/0e66e9b5-cbce-4957-86af-6db3fb9ff924)
+
+we have a rectangle, inside there is a text, with help on RoationAnimation, we rotate clcokwise, to x number, with duration and mouseArea feature to onClicked to pause, or else to resume
+
 - scale and sequential snimation
+
+https://doc.qt.io/qt-6/qml-qtquick-sequentialanimation.html
+
+https://doc.qt.io/qt-6/qml-qtquick-scaleanimator.html
+
+Runing multiple animation in sequence one after another
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/2bca5745-a54d-4dde-a601-8ecb3d3ee355)
+
+sequential animation, and scale animation
 
 - opacity and opacity animation
 
 - smoother animation
 
-- snti-alising
+- anti-aliasing
+
+- keyboard input
+
+- transform and translate
+
+- drag and drop
