@@ -49,6 +49,11 @@ For cross compile and remote deployment:
 
 Build it and test it in Windows, but then copy that code to mac and Linux box and test there, 99% of time it works flowlessly. 
 
+Ref:
+
+https://doc.qt.io/qt-6/qtquick-qmlmodule.html
+
+qt quick qml object types
 
 ## 2-QtCreator
 
@@ -229,6 +234,101 @@ creating new qml and connecting and combined usage of them, and creating 4 butto
 
 ## 5-positioning-layouts
 
+- object positioning using x, y
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/4fddeaf2-d2fe-45d5-a8d1-3a19afb6c1ff)
+
+using javascript function, we track position change parameters, , drag.target is used to move the mouse,component.onCompleted: update() for function call, function name is update()
+
+- object positoning using z
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/ccf71f91-56dc-4ac9-bea2-c641975750ef)
+
+we created new qml, and connected them using its mouseArea() feature,, and inside, it givge drag mouse in parent dir, and onClicked parent.z++, if we click it increments z position.
+  
+ref: 
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/9ef7f005-a40c-4ef6-9c20-10b54ef01021)
+
+adding qml file 
+
+- column layout
+
+https://doc.qt.io/qt-6/qml-qtquick-column.html
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/0b708adc-edc3-444c-bf36-237239a75df4)
+
+using myShape qml inside column{}, with spacing : 2 pixels and center in features
+
+- row layout
+
+      // 5-34 row layout
+  
+      Row{
+          spacing: 2
+          anchors.centerIn: parent
+          MyShape{color: "red"}
+          MyShape{color: "blue"}
+          MyShape{color: "yellow"}
+      }
+
+just by chaning column{} layout to row{} layout
+
+- grid layout
+
+https://doc.qt.io/qt-6/qml-qtquick-grid.html
+
+    // 5-35 grid layout
+    Grid{
+        anchors.centerIn: parent
+        spacing: 3
+        rows: 2
+        columns: 5
+
+        MyShape {color:"red"}
+        MyShape {color:"blue"}
+        MyShape {color:"green"}
+        MyShape {color:"black"}
+        MyShape {color:"gray"}
+        MyShape {color:"brown"}
+        MyShape {color:"orange"}
+    }
+
+- flow layout
+
+https://doc.qt.io/qt-6/qml-qtquick-flow.html
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/ce46a7fb-c72f-4e00-85f3-ea9259aa6087)
+
+Positions its children side by side, wrapping as necessary.
+
+- anchors
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/def47f52-ea55-4243-80f2-33e838cb85f4)
+
+all sorts of anchor usages, and connected rectangles together and could be dragged all together, and the correct version of writing item in separate qml file
+
+- margins
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/8aba0160-eb09-4b35-87f3-4b321a499655)
+
+if anchor is not set, margin will not be there as well
+
+- simple image viewer
+
+
 
 
 ## 6-properties-animations
+
+- property and property animation
+
+- rotation and rotation animation
+
+- scale and sequential snimation
+
+- opacity and opacity animation
+
+- smoother animation
+
+- snti-alising
