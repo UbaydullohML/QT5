@@ -5,6 +5,8 @@
 * [4-BasicTypes](#4-basictypes)
 * [5-positioning-layouts](#5-positioning-layouts)
 * [6-properties-animations](#6-properties-animations)
+* [7-Introducing-designer](#7-introducing-designer)
+* [8-Qt-Quick](#8-qt-quick)
 
 
 ## 1-Intro
@@ -349,13 +351,13 @@ Transformation in qml - its about transforming the objects apperance through cha
 
 Whenever we see animation, it changes over time (PropertyAnimation - takes a property and changes it over time)
 
-![image](https://github.com/UbaydullohML/QT5/assets/75980506/8cb477e3-8af1-41ac-b84a-0eb57b1a7e27)
+![property](https://github.com/UbaydullohML/QT5/assets/75980506/fa4612d9-0bc8-4ce8-b90d-f3a9d1e1d161)
 
 we have rectangle, and two propertyAnimation one moving object to right and one to the left, and including duraiton to move how fast
 
 - rotation and rotation animation
 
-![image](https://github.com/UbaydullohML/QT5/assets/75980506/0e66e9b5-cbce-4957-86af-6db3fb9ff924)
+![rotationanimation](https://github.com/UbaydullohML/QT5/assets/75980506/9d46d651-c39f-4b21-9172-083d82bfc90d)
 
 we have a rectangle, inside there is a text, with help on RoationAnimation, we rotate clcokwise, to x number, with duration and mouseArea feature to onClicked to pause, or else to resume
 
@@ -367,18 +369,52 @@ https://doc.qt.io/qt-6/qml-qtquick-scaleanimator.html
 
 Runing multiple animation in sequence one after another
 
-![image](https://github.com/UbaydullohML/QT5/assets/75980506/2bca5745-a54d-4dde-a601-8ecb3d3ee355)
+![scaleanimator](https://github.com/UbaydullohML/QT5/assets/75980506/58b16be5-9a8e-459f-bd45-e33dd2bd2c88)
 
 sequential animation, and scale animation
 
 - opacity and opacity animation
 
+https://doc.qt.io/qt-6/qml-qtquick-opacityanimator.html
+
+![opacityv](https://github.com/UbaydullohML/QT5/assets/75980506/814efc30-67a9-4906-8221-fe3a767d679b)
+
+QML type that animates the opacity of item in qt quick
+
 - smoother animation
+
+https://doc.qt.io/qt-6/qml-qtquick-smoothedanimation.html
+
+it basically takes animation and makes it little bit smoother
+
+![smoothed](https://github.com/UbaydullohML/QT5/assets/75980506/4b5a2b9a-6fd2-4638-b94a-e418d9482239)
+
+it animates value to set a target value using an ease in/out quad easing curve. When the target value changes, the easing curves used to animate between the old and new target values are smoothly spliced together to create a smooth movement to the new target value that maintains the current velocity.
 
 - anti-aliasing
 
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/ac19e933-4a0c-4e38-a27e-7fc3a142cdee)
+
+anti aliasing is automatically on, and make it off,if performance issues, liek on embedded devices
+
 - keyboard input
+
+![keyboardwh](https://github.com/UbaydullohML/QT5/assets/75980506/43c7788d-dee5-46c4-a136-cecd036e71c7)
+
+with keyboard right left, up and down pressed width and height is editedas on above output
 
 - transform and translate
 
-- drag and drop
+https://doc.qt.io/qt-6/qml-qtquick-transform.html
+
+https://doc.qt.io/qt-6/qml-qtquick-transition.html
+
+![transformTranslate](https://github.com/UbaydullohML/QT5/assets/75980506/de98ad6c-9f2c-4b0e-aff3-3b937437e4b8)
+
+it provides independent control over position in addition to item x and y properties
+
+
+
+## 7-Introducing-designer
+
+## 8-Qt-Quick
