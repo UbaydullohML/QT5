@@ -345,6 +345,8 @@ signals and slots are used
 
 - property and property animation
 
+property changes over time
+
 https://doc.qt.io/qt-6/qml-qtquick-propertyanimation.html
 
 Transformation in qml - its about transforming the objects apperance through changes, taking an object and transforming into sth else using its properties. 
@@ -383,6 +385,8 @@ QML type that animates the opacity of item in qt quick
 
 - smoother animation
 
+smooths the timing and properties on an average
+
 https://doc.qt.io/qt-6/qml-qtquick-smoothedanimation.html
 
 it basically takes animation and makes it little bit smoother
@@ -392,6 +396,8 @@ it basically takes animation and makes it little bit smoother
 it animates value to set a target value using an ease in/out quad easing curve. When the target value changes, the easing curves used to animate between the old and new target values are smoothly spliced together to create a smooth movement to the new target value that maintains the current velocity.
 
 - anti-aliasing
+
+smoothing rough edges of objects
 
 ![image](https://github.com/UbaydullohML/QT5/assets/75980506/ac19e933-4a0c-4e38-a27e-7fc3a142cdee)
 
@@ -405,6 +411,8 @@ with keyboard right left, up and down pressed width and height is editedas on ab
 
 - transform and translate
 
+translate - move item without changing its x or y properties
+
 https://doc.qt.io/qt-6/qml-qtquick-transform.html
 
 https://doc.qt.io/qt-6/qml-qtquick-transition.html
@@ -416,5 +424,8 @@ it provides independent control over position in addition to item x and y proper
 
 
 ## 7-Introducing-designer
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/0672010e-88dc-4457-9dc7-755a5b37e0d6)
+
 
 ## 8-Qt-Quick
