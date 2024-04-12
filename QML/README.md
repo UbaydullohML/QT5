@@ -425,7 +425,100 @@ it provides independent control over position in addition to item x and y proper
 
 ## 7-Introducing-designer
 
+in qt qcreator
+
 ![image](https://github.com/UbaydullohML/QT5/assets/75980506/0672010e-88dc-4457-9dc7-755a5b37e0d6)
+
+in qt design studio
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/c11dbc02-1233-4d93-9a9b-9f8905330686)
+
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/5cb67986-7636-428c-b0db-59833314ac53)
+
+connections and bindings:
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/839d7908-4e36-4bb4-acf2-d4b4277f7e16)
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/d6199f48-e702-4ac9-b8a1-62948c57bd00)
+
+when first rectangle is clicked both are isntantly changesd:
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/5954de76-c666-41a8-9423-045308db5353)
+
+cause of :
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/354365f4-9f63-4f36-b78f-63856fa521b5)
+
+
+
+    // 7-52 connections and properties
+    Rectangle {
+        id: rectangle
+        x: 502
+        y: 154
+        width: 384
+        height: 406
+        color: "#005500"
+
+        MouseArea {
+            id: mouseArea
+            anchors.fill: parent
+        }
+    }
+
+    Rectangle {
+        id: rectangle1
+        x: 974
+        y: 154
+        width: 389
+        height: 406
+        color: "#0000ff"
+        property string title: "Title"
+
+        Text {
+            id: text1
+            color: "#ffffff"
+            text: parent.title
+            anchors.verticalCenter: parent.verticalCenter
+            font.pixelSize: 70
+            font.bold: true
+            anchors.horizontalCenter: parent.horizontalCenter
+        }
+    }
+    Connections {
+        target: mouseArea
+        onClicked: rectangle1.title = "Hello"
+    }
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/9c219645-c0cd-463c-8022-9418f1ba7030)
+
+
+above is done using property on the abaove code
+
+connections - is connection between signal and slots
+
+state - set of property changes
+
+image is not deployed with binary automatically
 
 
 ## 8-Qt-Quick
+
+- qt quick controls
+
+https://doc.qt.io/qt-6/qtquickcontrols-index.html
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/a4c1f874-075a-4170-8ee4-ccf548437cda)
+
+- label
+
+- busy indicator
+
+- button
+
+- checkbox
+
+- check delegate in listview
+
+- combo box
