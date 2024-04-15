@@ -612,8 +612,42 @@ progress indicator without percentage, which is turned on and off
 
 clicable and interactive buttons implementation
 
+- checkbox
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/683d170f-1476-42e5-9605-64140dfe02e0)
+
+we can use all checkboxes and change the status and at the end we could reset all to 0
+
+- checkDelegate in listView
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/849e4919-e691-4dc7-932b-ddd335241513)
+
+model view programming with list view and check delegate, including modelData
+
+- ComboBox
+
 
 ## 9-QML-project
+
+- scrollview application
+
+https://doc.qt.io/Qt-6/qml-qtquick-controls-scrollview.html
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/51b0b609-4076-46af-b30b-aadf59916492)
+
+scroll view application with using list model list view, and delagate 
+
+- stack view application
+
+https://doc.qt.io/qt-5/qml-qtquick-controls2-stackview.html
+
+
+
+- swipe view application
+
+- passing variables
+
+- passing variables - alt method
 
 
 ## 10-Javascript
