@@ -7,6 +7,8 @@
 * [6-properties-animations](#6-properties-animations)
 * [7-Introducing-designer](#7-introducing-designer)
 * [8-Qt-Quick](#8-qt-quick)
+* [9-QML-project](#9-qml-project)
+* [10-javascript](#10-javascript)
 
 
 ## 1-Intro
@@ -513,12 +515,105 @@ https://doc.qt.io/qt-6/qtquickcontrols-index.html
 
 - label
 
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/0a051e55-63cf-462a-8dc2-fbec80cfc3ba)
+
+using qt designer, experiments with labeling
+
 - busy indicator
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/7bbd750b-8c30-430e-a121-376bb57e76f4)
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/7149565d-58ec-4b8b-a73f-340d082554d6)
+
+
+progress indicator without percentage, which is turned on and off
 
 - button
 
-- checkbox
+          // 8-58 button
+          Row {
+              id: row
+              x: 0
+              y: 668
+              width: 1024
+              height: 100
+              anchors.bottom: parent.bottom
+              anchors.bottomMargin: 0
+              layer.enabled: false
+  
+              Button {
+                  id: button
+                  x: 0
+                  width: 180
+                  height: 100
+                  text: qsTr("Cat")
+                  anchors.right: parent.right
+                  anchors.rightMargin: 750
+                  display: AbstractButton.TextBesideIcon
+              }
+              Button {
+                  id: button1
+                  x: 0
+                  width: 200
+                  height: 100
+                  text: qsTr("Dog")
+                  anchors.right: parent.right
+                  anchors.rightMargin: 520
+                  display: AbstractButton.TextBesideIcon
+              }
+              Button {
+                  id: button2
+                  x: 0
+                  width: 200
+                  height: 100
+                  text: qsTr("Fish")
+                  anchors.right: parent.right
+                  anchors.rightMargin: 300
+                  display: AbstractButton.TextBesideIcon
+              }
+              Button {
+                  id: button3
+                  x: 0
+                  width: 200
+                  height: 100
+                  text: qsTr("Bird")
+                  anchors.right: parent.right
+                  anchors.rightMargin: 80
+                  display: AbstractButton.TextBesideIcon
+              }
+          }
+          Image {
+              id: image
+              x: 0
+              y: 48
+              width: 1024
+              height: 605
+              fillMode: Image.PreserveAspectFit
+          }
+          Connections {
+              target: button
+              onClicked: image.source = "images/cat.jpg"
+          }
+          Connections {
+              target: button1
+              onClicked: image.source = "images/dog.jpg"
+          }
+          Connections {
+              target: button2
+              onClicked: image.source = "images/fish.jpg"
+          }
+          Connections {
+              target: button3
+              onClicked: image.source = "images/qt.png"
+          }
+      }
 
-- check delegate in listview
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/2a0fb60b-e9ee-4420-9bfd-70c2b8e5953d)
 
-- combo box
+clicable and interactive buttons implementation
+
+
+## 9-QML-project
+
+
+## 10-Javascript
