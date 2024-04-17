@@ -641,9 +641,17 @@ scroll view application with using list model list view, and delagate
 
 https://doc.qt.io/qt-5/qml-qtquick-controls2-stackview.html
 
+![stackview](https://github.com/UbaydullohML/QT5/assets/75980506/a1596aaa-2779-4ef2-a1cb-0f3f6337e8d3)
 
+uploaded source code to qmlb-9-2 folder
+
+it is creating stackview application, which it as on column, and has drawer to open and close it, and itemDelegate - it delegate how sth is rendered
+
+https://doc.qt.io/qt-5/qml-qtquick-controls2-itemdelegate.html
 
 - swipe view application
+
+
 
 - passing variables
 
