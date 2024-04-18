@@ -667,7 +667,14 @@ here we are using property binding to interact between tabs, when we time  input
 
 ## 10-Javascript
 
+js compiler:
+
+https://rextester.com/l/js_online_compiler
+
+
 ![image](https://github.com/UbaydullohML/QT5/assets/75980506/4458c8fa-e92c-4139-af64-6a206d315dc3)
+
+variables, and scope basics
 
 
 ## 11-QML_cpp_integration
