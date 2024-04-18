@@ -651,7 +651,9 @@ https://doc.qt.io/qt-5/qml-qtquick-controls2-itemdelegate.html
 
 - swipe view application
 
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/ed655724-860e-497a-8fec-c72cf9b56748)
 
+it gives access to select tabs and go to that pages (TabBar{}), and swipe tabes (SwipeView{})
 
 - passing variables
 
