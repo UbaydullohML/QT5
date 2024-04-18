@@ -9,7 +9,7 @@
 * [8-Qt-Quick](#8-qt-quick)
 * [9-QML-project](#9-qml-project)
 * [10-javascript](#10-javascript)
-* [11-QML_c++_integration](#11-QML_c++_integration)
+* [11-QML_cpp_integration](#11-qml_cpp_integration)
 
 
 ## 1-Intro
@@ -670,5 +670,5 @@ here we are using property binding to interact between tabs, when we time  input
 ![image](https://github.com/UbaydullohML/QT5/assets/75980506/4458c8fa-e92c-4139-af64-6a206d315dc3)
 
 
-## 11-QML_c++_integration
+## 11-QML_cpp_integration
 
