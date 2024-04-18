@@ -9,6 +9,7 @@
 * [8-Qt-Quick](#8-qt-quick)
 * [9-QML-project](#9-qml-project)
 * [10-javascript](#10-javascript)
+* [11-QML_c++_integration](#11-QML_c++_integration)
 
 
 ## 1-Intro
@@ -657,7 +658,17 @@ it gives access to select tabs and go to that pages (TabBar{}), and swipe tabes 
 
 - passing variables
 
+![passingVariables](https://github.com/UbaydullohML/QT5/assets/75980506/b8ee3a85-d46f-4df2-a8e7-487ab1860123)
+
+here we are using property binding to interact between tabs, when we time  input it binds to second page and shows there 
+
 - passing variables - alt method
 
 
 ## 10-Javascript
+
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/4458c8fa-e92c-4139-af64-6a206d315dc3)
+
+
+## 11-QML_c++_integration
+
