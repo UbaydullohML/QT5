@@ -679,3 +679,6 @@ variables, and scope basics
 
 ## 11-QML_cpp_integration
 
+![image](https://github.com/UbaydullohML/QT5/assets/75980506/63012bfb-5448-4e75-a903-5c4a3f22cbaf)
+
+qml and c++ integration intro
