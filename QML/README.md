@@ -10,6 +10,8 @@
 * [9-QML-project](#9-qml-project)
 * [10-javascript](#10-javascript)
 * [11-QML_cpp_integration](#11-qml_cpp_integration)
+* [12-Custom_components](#12-custom_components)
+* [13-Example-apps](#13-example-apps)
 
 
 ## 1-Intro
@@ -682,3 +684,7 @@ variables, and scope basics
 ![image](https://github.com/UbaydullohML/QT5/assets/75980506/63012bfb-5448-4e75-a903-5c4a3f22cbaf)
 
 qml and c++ integration intro
+
+## 12-Custom_components
+
+## 13-Example-apps
