@@ -10,7 +10,7 @@
 * [9-QML-project](#9-qml-project)
 * [10-javascript](#10-javascript)
 * [11-QML_cpp_integration](#11-qml_cpp_integration)
-* [12-Custom_components](#12-custom_components)
+* [12-Custom_components](#12-custom_components)  
 * [13-Example-apps](#13-example-apps)
 
 
