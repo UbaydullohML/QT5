@@ -4,7 +4,7 @@
 
 ![image](https://github.com/UbaydullohML/QGC-compile/assets/75980506/2d382300-fa24-45e9-af98-c0d427d9cc1b)
 
-inside qmake.exe folder 
+inside qmake.exe folder  
     
     qmake.exe $C:/Qt/5.15.2/android/bin/qmake.exe D:\models\QTDev\qgroundcontrol\qgroundcontrol.pro -spec android-clang "CONFIG+=debug" "CONFIG+=qml_debug" ANDROID_ABIS="arm64-v8a" 
 
